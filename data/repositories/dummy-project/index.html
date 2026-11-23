@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+
+```
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<header class="navbar">
+    <div class="logo">TaskFlow</div>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#tasks">Tasks</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="dashboard" class="hero">
+        <div>
+            <h1>Manage Your Tasks</h1>
+            <p>
+                A simple task management dashboard to organize
+                your daily work and track your progress.
+            </p>
+
+            <button class="primary-btn">Add New Task</button>
+        </div>
+
+        <div class="hero-card">
+            <h3>Today's Progress</h3>
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p>7 of 10 tasks completed</p>
+        </div>
+    </section>
+
+
+    <section id="tasks" class="tasks-section">
+        <div class="section-header">
+            <h2>My Tasks</h2>
+            <button class="secondary-btn">+ New Task</button>
+        </div>
+
+        <div class="task-grid">
+
+            <div class="task-card completed">
+                <div class="task-header">
+                    <h3>Build Login Page</h3>
+                    <span class="status">Completed</span>
+                </div>
+
+                <p>
+                    Create the login page UI with email,
+                    password and authentication buttons.
+                </p>
+
+                <div class="task-footer">
+                    <span>Frontend</span>
+                    <span>Sep 15</span>
+                </div>
+            </div>
+
+
+            <div class="task-card">
+                <div class="task-header">
+                    <h3>Create API</h3>
+                    <span class="status pending">Pending</span>
+                </div>
+
+                <p>
+                    Develop REST API endpoints for managing
+                    users and tasks.
+                </p>
+
+                <div class="task-footer">
+                    <span>Backend</span>
+                    <span>Sep 18</span>
+                </div>
+            </div>
+
+
+            <div class="task-card">
+                <div class="task-header">
+                    <h3>Database Setup</h3>
+                    <span class="status pending">Pending</span>
+                </div>
+
+                <p>
+                    Configure the database and create tables
+                    required for the application.
+                </p>
+
+                <div class="task-footer">
+                    <span>Database</span>
+                    <span>Sep 20</span>
+                </div>
+            </div>
+
+
+            <div class="task-card completed">
+                <div class="task-header">
+                    <h3>Project Documentation</h3>
+                    <span class="status">Completed</span>
+                </div>
+
+                <p>
+                    Write documentation explaining the project
+                    setup and development process.
+                </p>
+
+                <div class="task-footer">
+                    <span>Documentation</span>
+                    <span>Sep 14</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <h2>About TaskFlow</h2>
+        <p>
+            TaskFlow is a dummy project created for testing
+            frontend applications, code analysis and AI-powered
+            development tools.
+        </p>
+    </section>
+
+</main>
+
+
+<footer>
+    <p>© 2026 TaskFlow. All rights reserved.</p>
+</footer>
+```
+
+</body>
+</html>
